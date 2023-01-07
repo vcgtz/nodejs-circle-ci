@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-circle-ci",
+  "version": "1.0.0",
+  "description": "CircleCI integration with NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcgtz/nodejs-circle-ci.git"
+  },
+  "author": "Vicente Gutierrez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vcgtz/nodejs-circle-ci/issues"
+  },
+  "homepage": "https://github.com/vcgtz/nodejs-circle-ci#readme",
+  "dependencies": {
+    "jest": "^29.3.1"
+  }
+}
